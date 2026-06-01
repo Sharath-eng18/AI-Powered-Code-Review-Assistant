@@ -7,7 +7,7 @@ export default function Navbar({ theme, toggleTheme }) {
     <>
       {/* Mobile Header (Visible only on mobile) */}
       <header className="brutal-mobile-header">
-        <h1 className="font-display font-black text-xl text-primary uppercase" style={{ fontFamily: 'var(--font-display)', fontWeight: 900, margin: 0 }}>BAUHAUS_OS</h1>
+        <h1 className="font-display font-black text-xl text-primary uppercase" style={{ fontFamily: 'var(--font-display)', fontWeight: 900, margin: 0 }}>PR-SHEILD AI</h1>
         <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
           {/* Mobile Theme Toggle */}
           <button 
