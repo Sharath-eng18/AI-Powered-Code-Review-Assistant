@@ -6,7 +6,7 @@ import ReviewDetails from './components/ReviewDetails';
 import './App.css';
 
 // Base API URL pointing to the Flask backend
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 export default function App() {
   const [stats, setStats] = useState(null);
