@@ -1,0 +1,39 @@
+# Python Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Compiled/Cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local Environment Credentials
+.env
+backend/.env
+backend/app/.env
+*.pem
+private-key.pem
+my-local-ai-reviewer-*.pem
+
+# Database / SQLite Instance
+*.db
+backend/local.db
+backend/instance/
+instance/
+
+# Node Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production Build Output
+dist/
+frontend/dist/
+
+# OS/System artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
